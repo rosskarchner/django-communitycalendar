@@ -3,3 +3,4 @@ from .models import *
 
 
 admin.site.register(IcalSource)
+admin.site.register(Calendar)
