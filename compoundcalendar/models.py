@@ -1,6 +1,10 @@
 from django.db import models
 from django.contrib.sites.models import Site
-# from django.contrib.auth.models import User
+
+
+class SiteSettings(models.Model):
+    default_timezone = models.CharField(max_length=255)
+    #TODO: find a package that provides a real timezone field
 
 
 class IcalSource(models.Model):
@@ -21,6 +25,11 @@ class Calendar(models.Model):
     name = models.CharField(max_length=255, unique=True)
     slug = models.SlugField(unique=True)
     staff_only = models.BooleanField()
+    default_timezone = models.CharField(max_length=255)
+    #TODO: find a package that provides a real timezone field
+
+    def __unicode__(self):
+        return self.name
 
     class Meta:
         unique_together = (("site", "slug"),)
