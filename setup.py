@@ -15,12 +15,12 @@ def read_file(filename):
 setup(
     name='django-compoundcalendar',
     version=__import__('compoundcalendar').__version__,
-    author='<Include Your Name Here>',
-    author_email='<Include Your Email Here>',
+    author='Ross Karchner',
+    author_email='ross@karchner.com',
     packages=find_packages(),
     include_package_data=True,
-    url='<Include Link to Project>',
-    license='<Include License Name>',
+    url='http://github.com/rosskarchner/compoundcalendar',
+    license='Same license as Python',
     description=u' '.join(__import__('compoundcalendar').__doc__.splitlines()).strip(),
     classifiers=[
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
