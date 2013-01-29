@@ -3,6 +3,7 @@ from django.contrib.sites.models import Site
 
 
 class SiteSettings(models.Model):
+    site = models.ForeignKey(Site)
     default_timezone = models.CharField(max_length=255)
     #TODO: find a package that provides a real timezone field
 
@@ -17,7 +18,7 @@ class IcalSource(models.Model):
     destination = models.ForeignKey("Calendar", null=True)
 
     def __unicode__(self):
-        return self.name
+        return "%s (%s)" % (self.name, self.site)
 
 
 class Calendar(models.Model):
