@@ -13,6 +13,7 @@ if not settings.configured:
             }
         },
         INSTALLED_APPS=(
+            'django.contrib.sites',
             'compoundcalendar',
         ),
         SITE_ID=1,
@@ -32,4 +33,3 @@ def runtests():
 
 if __name__ == '__main__':
     runtests()
-
