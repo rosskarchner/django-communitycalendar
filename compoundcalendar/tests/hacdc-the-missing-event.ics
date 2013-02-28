@@ -1,0 +1,18 @@
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130204T190000
+DTEND;TZID=America/New_York:20130204T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, February 4 at 7:00 PM\n\nMicrocontroller Mond
+ ay is an informal weekly gathering at HacDC where electronics and microc
+ ontroller enthusiasts of all experience levels meet to adv...\n\nDetails
+ : http://www.meetup.com/hac-dc/events/61147072/
+CLASS:PUBLIC
+CREATED:20120418T211435Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147072/
+LAST-MODIFIED:20120418T211435Z
+UID:event_rhfxnyrdbgb@meetup.com
+END:VEVENT

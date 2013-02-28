@@ -1,0 +1,1179 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//RemoteApi//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-ORIGINAL-URL:http://www.meetup.com/hac-dc/events/ical/HacDC/
+X-WR-CALNAME:Events - HacDC
+BEGIN:VTIMEZONE
+TZID:America/New_York
+TZURL:http://tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130130T200000
+DTEND;TZID=America/New_York:20130130T230000
+STATUS:CONFIRMED
+SUMMARY:The Elements of Computing Systems (TECS)
+DESCRIPTION:HacDC\nWednesday\, January 30 at 8:00 PM\n\nThe Elements of C
+ omputing Systems (TECS) is an introduction (or refresher) on the basics 
+ of Computer Science. It's an exciting course that begins with...\n\nDeta
+ ils: http://www.meetup.com/hac-dc/events/100888782/
+CLASS:PUBLIC
+CREATED:20130122T193633Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/100888782/
+LAST-MODIFIED:20130122T193633Z
+UID:event_qnhggfyrcbnc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130131T190000
+DTEND;TZID=America/New_York:20130131T220000
+STATUS:CONFIRMED
+SUMMARY:GrindDC Meatup: Thursday Bio-hacking
+DESCRIPTION:HacDC\nThursday\, January 31 at 7:00 PM\n\nAn informal meetin
+ g of people interested in bio-hacking\, diy-bio\,   implantable technolo
+ gies or other form of 'meat hacking'. Highlights for this week...\n\nDet
+ ails: http://www.meetup.com/hac-dc/events/101246652/
+CLASS:PUBLIC
+CREATED:20130123T193630Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/101246652/
+LAST-MODIFIED:20130127T163022Z
+UID:event_dtfkgfyrcbpc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130131T193000
+DTEND;TZID=America/New_York:20130131T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, January 31 at 7:30 PM\n\nA little incubatio
+ n time for your software projects that don't get enough love. Come to sh
+ are your fun new projects with us\, ask questions of other so...\n\nDeta
+ ils: http://www.meetup.com/hac-dc/events/61147002/
+CLASS:PUBLIC
+CREATED:20120418T211428Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147002/
+LAST-MODIFIED:20120418T211428Z
+UID:event_qfxpbcyrcbpc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130202T110000
+DTEND;TZID=America/New_York:20130202T230000
+STATUS:CONFIRMED
+SUMMARY:aaronsw Memorial Hackathon
+DESCRIPTION:HacDC\nSaturday\, February 2 at 11:00 AM\n\nHacDC will be hos
+ ting one of many\, self-organized\, global hackathons to memorialize the
+  late Aaron Swartz (November 8\, 1986 – January 11\, 2013) (More ...\n\n
+ Details: http://www.meetup.com/hac-dc/events/100321172/
+CLASS:PUBLIC
+CREATED:20130119T015845Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/100321172/
+LAST-MODIFIED:20130119T021239Z
+UID:event_100321172@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130204T190000
+DTEND;TZID=America/New_York:20130204T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, February 4 at 7:00 PM\n\nMicrocontroller Mond
+ ay is an informal weekly gathering at HacDC where electronics and microc
+ ontroller enthusiasts of all experience levels meet to adv...\n\nDetails
+ : http://www.meetup.com/hac-dc/events/61147072/
+CLASS:PUBLIC
+CREATED:20120418T211435Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147072/
+LAST-MODIFIED:20120418T211435Z
+UID:event_rhfxnyrdbgb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130206T193000
+DTEND;TZID=America/New_York:20130206T223000
+STATUS:CONFIRMED
+SUMMARY:The Elements of Computing Systems (TECS)
+DESCRIPTION:HacDC\nWednesday\, February 6 at 7:30 PM\n\nThe Elements of C
+ omputing Systems (TECS) is an introduction (or refresher) on the basics 
+ of Computer Science. It's an exciting course that begins with...\n\nDeta
+ ils: http://www.meetup.com/hac-dc/events/101344312/
+CLASS:PUBLIC
+CREATED:20130122T193633Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/101344312/
+LAST-MODIFIED:20130130T211938Z
+UID:event_qtknhfyrdbjb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130207T190000
+DTEND;TZID=America/New_York:20130207T220000
+STATUS:CONFIRMED
+SUMMARY:GrindDC Meatup: Thursday Bio-hacking
+DESCRIPTION:HacDC\nThursday\, February 7 at 7:00 PM\n\nAn informal meetin
+ g of people interested in bio-hacking\, diy-bio\,   implantable technolo
+ gies or other form of 'meat hacking'.\n\nDetails: http://www.meetup.com/
+ hac-dc/events/101344182/
+CLASS:PUBLIC
+CREATED:20130123T193630Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/101344182/
+LAST-MODIFIED:20130123T193630Z
+UID:event_dtfkgfyrdbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130207T193000
+DTEND;TZID=America/New_York:20130207T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, February 7 at 7:30 PM\n\nA little incubatio
+ n time for your software projects that don't get enough love. Come to sh
+ are your fun new projects with us\, ask questions of other so...\n\nDeta
+ ils: http://www.meetup.com/hac-dc/events/61147102/
+CLASS:PUBLIC
+CREATED:20120418T211440Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147102/
+LAST-MODIFIED:20120418T211440Z
+UID:event_qfxpbcyrdbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130209T120000
+DTEND;TZID=America/New_York:20130209T150000
+STATUS:CONFIRMED
+SUMMARY:HARC Ham License Exam
+DESCRIPTION:HacDC\nSaturday\, February 9 at 12:00 PM\n\nThe session (aka 
+ testing) will start at 12pm.   The ARRL requires a testing fee of $15 fo
+ r one attempt at *all 3* exams (you pay the ARRL $15 and get ...\n\nDeta
+ ils: http://www.meetup.com/hac-dc/events/95688062/
+CLASS:PUBLIC
+CREATED:20121217T194038Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/95688062/
+LAST-MODIFIED:20121217T194458Z
+UID:event_95688062@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130211T190000
+DTEND;TZID=America/New_York:20130211T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, February 11 at 7:00 PM\n\nMicrocontroller Mon
+ day is an informal weekly gathering at HacDC where electronics and micro
+ controller enthusiasts of all experience levels meet to adv...\n\nDetail
+ s: http://www.meetup.com/hac-dc/events/61147122/
+CLASS:PUBLIC
+CREATED:20120418T211443Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147122/
+LAST-MODIFIED:20120418T211443Z
+UID:event_rhfxnyrdbpb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130212T193000
+DTEND;TZID=America/New_York:20130212T223000
+STATUS:CONFIRMED
+SUMMARY:Monthly Members Meeting
+DESCRIPTION:HacDC\nTuesday\, February 12 at 7:30 PM\n\nDetails: http://ww
+ w.meetup.com/hac-dc/events/99773332/
+CLASS:PUBLIC
+CREATED:20110221T073120Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/99773332/
+LAST-MODIFIED:20110221T073120Z
+UID:event_zzzmqyrdbqb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130213T193000
+DTEND;TZID=America/New_York:20130213T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, February 13 at 7:30 PM\n\nDigital modes ar
+ e an important part of the future in amateur radio.  They are a means of
+  exchanging data\, voice\, and images using ham radio and softwa...\n\nD
+ etails: http://www.meetup.com/hac-dc/events/61147212/
+CLASS:PUBLIC
+CREATED:20120418T211454Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147212/
+LAST-MODIFIED:20130120T142932Z
+UID:event_dsjdfcyrdbrb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130213T193000
+DTEND;TZID=America/New_York:20130213T223000
+STATUS:CONFIRMED
+SUMMARY:The Elements of Computing Systems (TECS)
+DESCRIPTION:HacDC\nWednesday\, February 13 at 7:30 PM\n\nThe Elements of 
+ Computing Systems (TECS) is an introduction (or refresher) on the basics
+  of Computer Science. It's an exciting course that begins with...\n\nDet
+ ails: http://www.meetup.com/hac-dc/events/101344972/
+CLASS:PUBLIC
+CREATED:20130122T193633Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/101344972/
+LAST-MODIFIED:20130130T212023Z
+UID:event_qtknhfyrdbrb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130214T190000
+DTEND;TZID=America/New_York:20130214T220000
+STATUS:CONFIRMED
+SUMMARY:GrindDC Meatup: Thursday Bio-hacking
+DESCRIPTION:HacDC\nThursday\, February 14 at 7:00 PM\n\nAn informal meeti
+ ng of people interested in bio-hacking\, diy-bio\,   implantable technol
+ ogies or other form of 'meat hacking'.\n\nDetails: http://www.meetup.com
+ /hac-dc/events/101345002/
+CLASS:PUBLIC
+CREATED:20130123T193630Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/101345002/
+LAST-MODIFIED:20130123T193630Z
+UID:event_dtfkgfyrdbsb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130214T193000
+DTEND;TZID=America/New_York:20130214T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, February 14 at 7:30 PM\n\nA little incubati
+ on time for your software projects that don't get enough love. Come to s
+ hare your fun new projects with us\, ask questions of other so...\n\nDet
+ ails: http://www.meetup.com/hac-dc/events/61147232/
+CLASS:PUBLIC
+CREATED:20120418T211502Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147232/
+LAST-MODIFIED:20120418T211502Z
+UID:event_qfxpbcyrdbsb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130218T190000
+DTEND;TZID=America/New_York:20130218T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, February 18 at 7:00 PM\n\nMicrocontroller Mon
+ day is an informal weekly gathering at HacDC where electronics and micro
+ controller enthusiasts of all experience levels meet to adv...\n\nDetail
+ s: http://www.meetup.com/hac-dc/events/61147252/
+CLASS:PUBLIC
+CREATED:20120418T211509Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147252/
+LAST-MODIFIED:20120418T211509Z
+UID:event_rhfxnyrdbxb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130221T190000
+DTEND;TZID=America/New_York:20130221T220000
+STATUS:CONFIRMED
+SUMMARY:GrindDC Meatup: Thursday Bio-hacking
+DESCRIPTION:HacDC\nThursday\, February 21 at 7:00 PM\n\nAn informal meeti
+ ng of people interested in bio-hacking\, diy-bio\,   implantable technol
+ ogies or other form of 'meat hacking'.\n\nDetails: http://www.meetup.com
+ /hac-dc/events/101345332/
+CLASS:PUBLIC
+CREATED:20130123T193630Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/101345332/
+LAST-MODIFIED:20130123T193630Z
+UID:event_dtfkgfyrdbcc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130221T193000
+DTEND;TZID=America/New_York:20130221T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, February 21 at 7:30 PM\n\nA little incubati
+ on time for your software projects that don't get enough love. Come to s
+ hare your fun new projects with us\, ask questions of other so...\n\nDet
+ ails: http://www.meetup.com/hac-dc/events/61147272/
+CLASS:PUBLIC
+CREATED:20120418T211515Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147272/
+LAST-MODIFIED:20120418T211515Z
+UID:event_qfxpbcyrdbcc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130222T200000
+DTEND;TZID=America/New_York:20130223T210000
+STATUS:CONFIRMED
+SUMMARY:Byzantium Sprint
+DESCRIPTION:HacDC\nFriday\, February 22 at 8:00 PM\n\nFriday 8-10ish Satu
+ rday 12ish-9ish or whenever we keelover  \n\nDetails: http://www.meetup.
+ com/hac-dc/events/61147292/
+CLASS:PUBLIC
+CREATED:20120418T211521Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147292/
+LAST-MODIFIED:20130104T203254Z
+UID:event_cwrxqyrdbdc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130225T190000
+DTEND;TZID=America/New_York:20130225T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, February 25 at 7:00 PM\n\nMicrocontroller Mon
+ day is an informal weekly gathering at HacDC where electronics and micro
+ controller enthusiasts of all experience levels meet to adv...\n\nDetail
+ s: http://www.meetup.com/hac-dc/events/61147302/
+CLASS:PUBLIC
+CREATED:20120418T211524Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147302/
+LAST-MODIFIED:20120418T211524Z
+UID:event_rhfxnyrdbhc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130227T193000
+DTEND;TZID=America/New_York:20130227T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, February 27 at 7:30 PM\n\nmake stuff\, get
+  your license\, QSO\, test\, tinker\, learn\, or...\n\nDetails: http://w
+ ww.meetup.com/hac-dc/events/61147382/
+CLASS:PUBLIC
+CREATED:20120418T211543Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147382/
+LAST-MODIFIED:20120523T195859Z
+UID:event_qvrdxcyrdbkc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130228T190000
+DTEND;TZID=America/New_York:20130228T220000
+STATUS:CONFIRMED
+SUMMARY:GrindDC Meatup: Thursday Bio-hacking
+DESCRIPTION:HacDC\nThursday\, February 28 at 7:00 PM\n\nAn informal meeti
+ ng of people interested in bio-hacking\, diy-bio\,\n\n implantable techn
+ ologies or other form of 'meat hacking'.\n\nDetails: http://www.meetup.c
+ om/hac-dc/events/dtfkgfyrdblc/
+CLASS:PUBLIC
+CREATED:20130123T193630Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/dtfkgfyrdblc/
+LAST-MODIFIED:20130123T193630Z
+UID:event_dtfkgfyrdblc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130228T193000
+DTEND;TZID=America/New_York:20130228T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, February 28 at 7:30 PM\n\nA little incubati
+ on time for your software projects that don't get enough love. Come to s
+ hare your fun new projects with us\, ask questions of other so...\n\nDet
+ ails: http://www.meetup.com/hac-dc/events/61147392/
+CLASS:PUBLIC
+CREATED:20120418T211543Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61147392/
+LAST-MODIFIED:20120418T211543Z
+UID:event_qfxpbcyrdblc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130303T150000
+DTEND;TZID=America/New_York:20130303T180000
+STATUS:CONFIRMED
+SUMMARY:Sunday Crafternoon!
+DESCRIPTION:HacDC\nSunday\, March 3 at 3:00 PM\n\nDo you knit? Crochet? E
+ mbroider? Bead? Make things out of metal? Twist pipe cleaners together? 
+ HacDC want's to open it's doors to crafters. If you hav...\n\nDetails: h
+ ttp://www.meetup.com/hac-dc/events/61148022/
+CLASS:PUBLIC
+CREATED:20120418T212101Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148022/
+LAST-MODIFIED:20120418T212101Z
+UID:event_qsqbqcyrfbfb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130304T190000
+DTEND;TZID=America/New_York:20130304T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, March 4 at 7:00 PM\n\nMicrocontroller Monday 
+ is an informal weekly gathering at HacDC where electronics and microcont
+ roller enthusiasts of all experience levels meet to adv...\n\nDetails: h
+ ttp://www.meetup.com/hac-dc/events/61148062/
+CLASS:PUBLIC
+CREATED:20120418T212104Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148062/
+LAST-MODIFIED:20120418T212104Z
+UID:event_rhfxnyrfbgb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130307T190000
+DTEND;TZID=America/New_York:20130307T220000
+STATUS:CONFIRMED
+SUMMARY:GrindDC Meatup: Thursday Bio-hacking
+DESCRIPTION:HacDC\nThursday\, March 7 at 7:00 PM\n\nAn informal meeting o
+ f people interested in bio-hacking\, diy-bio\,\n\n implantable technolog
+ ies or other form of 'meat hacking'.\n\nDetails: http://www.meetup.com/h
+ ac-dc/events/dtfkgfyrfbkb/
+CLASS:PUBLIC
+CREATED:20130123T193630Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/dtfkgfyrfbkb/
+LAST-MODIFIED:20130123T193630Z
+UID:event_dtfkgfyrfbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130307T193000
+DTEND;TZID=America/New_York:20130307T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, March 7 at 7:30 PM\n\nA little incubation t
+ ime for your software projects that don't get enough love. Come to share
+  your fun new projects with us\, ask questions of other so...\n\nDetails
+ : http://www.meetup.com/hac-dc/events/61148082/
+CLASS:PUBLIC
+CREATED:20120418T212109Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148082/
+LAST-MODIFIED:20120418T212109Z
+UID:event_qfxpbcyrfbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130311T190000
+DTEND;TZID=America/New_York:20130311T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, March 11 at 7:00 PM\n\nMicrocontroller Monday
+  is an informal weekly gathering at HacDC where electronics and microcon
+ troller enthusiasts of all experience levels meet to adv...\n\nDetails: 
+ http://www.meetup.com/hac-dc/events/61148102/
+CLASS:PUBLIC
+CREATED:20120418T212112Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148102/
+LAST-MODIFIED:20120418T212112Z
+UID:event_rhfxnyrfbpb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130312T193000
+DTEND;TZID=America/New_York:20130312T223000
+STATUS:CONFIRMED
+SUMMARY:Monthly Members Meeting
+DESCRIPTION:HacDC\nTuesday\, March 12 at 7:30 PM\n\nDetails: http://www.m
+ eetup.com/hac-dc/events/99896072/
+CLASS:PUBLIC
+CREATED:20110221T073120Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/99896072/
+LAST-MODIFIED:20110221T073120Z
+UID:event_zzzmqyrfbqb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130313T193000
+DTEND;TZID=America/New_York:20130313T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, March 13 at 7:30 PM\n\n make stuff\, get y
+ our license\, QSO\, test\, tinker\, learn\,... \n\nDetails: http://www.m
+ eetup.com/hac-dc/events/61148212/
+CLASS:PUBLIC
+CREATED:20120418T212151Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148212/
+LAST-MODIFIED:20120418T212151Z
+UID:event_dsjdfcyrfbrb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130314T190000
+DTEND;TZID=America/New_York:20130314T220000
+STATUS:CONFIRMED
+SUMMARY:GrindDC Meatup: Thursday Bio-hacking
+DESCRIPTION:HacDC\nThursday\, March 14 at 7:00 PM\n\nAn informal meeting 
+ of people interested in bio-hacking\, diy-bio\,\n\n implantable technolo
+ gies or other form of 'meat hacking'.\n\nDetails: http://www.meetup.com/
+ hac-dc/events/dtfkgfyrfbsb/
+CLASS:PUBLIC
+CREATED:20130123T193630Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/dtfkgfyrfbsb/
+LAST-MODIFIED:20130123T193630Z
+UID:event_dtfkgfyrfbsb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130314T193000
+DTEND;TZID=America/New_York:20130314T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, March 14 at 7:30 PM\n\nA little incubation 
+ time for your software projects that don't get enough love. Come to shar
+ e your fun new projects with us\, ask questions of other so...\n\nDetail
+ s: http://www.meetup.com/hac-dc/events/61148232/
+CLASS:PUBLIC
+CREATED:20120418T212153Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148232/
+LAST-MODIFIED:20120418T212153Z
+UID:event_qfxpbcyrfbsb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130315T200000
+DTEND;TZID=America/New_York:20130316T210000
+STATUS:CONFIRMED
+SUMMARY:Byzantium Field Day
+DESCRIPTION:HacDC\nFriday\, March 15 at 8:00 PM\n\nWe will be doing non-l
+ ivedistro things like setting up a dialup server and playing with hardwa
+ re/meatware methods of connecting people beyond normal w...\n\nDetails: 
+ http://www.meetup.com/hac-dc/events/96785912/
+CLASS:PUBLIC
+CREATED:20121228T043634Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/96785912/
+LAST-MODIFIED:20121228T043634Z
+UID:event_96785912@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130318T190000
+DTEND;TZID=America/New_York:20130318T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, March 18 at 7:00 PM\n\nMicrocontroller Monday
+  is an informal weekly gathering at HacDC where electronics and microcon
+ troller enthusiasts of all experience levels meet to adv...\n\nDetails: 
+ http://www.meetup.com/hac-dc/events/61148242/
+CLASS:PUBLIC
+CREATED:20120418T212211Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148242/
+LAST-MODIFIED:20120418T212211Z
+UID:event_rhfxnyrfbxb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130321T190000
+DTEND;TZID=America/New_York:20130321T220000
+STATUS:CONFIRMED
+SUMMARY:GrindDC Meatup: Thursday Bio-hacking
+DESCRIPTION:HacDC\nThursday\, March 21 at 7:00 PM\n\nAn informal meeting 
+ of people interested in bio-hacking\, diy-bio\,\n\n implantable technolo
+ gies or other form of 'meat hacking'.\n\nDetails: http://www.meetup.com/
+ hac-dc/events/dtfkgfyrfbcc/
+CLASS:PUBLIC
+CREATED:20130123T193630Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/dtfkgfyrfbcc/
+LAST-MODIFIED:20130123T193630Z
+UID:event_dtfkgfyrfbcc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130321T193000
+DTEND;TZID=America/New_York:20130321T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, March 21 at 7:30 PM\n\nA little incubation 
+ time for your software projects that don't get enough love. Come to shar
+ e your fun new projects with us\, ask questions of other so...\n\nDetail
+ s: http://www.meetup.com/hac-dc/events/61148292/
+CLASS:PUBLIC
+CREATED:20120418T212217Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148292/
+LAST-MODIFIED:20120418T212217Z
+UID:event_qfxpbcyrfbcc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130325T190000
+DTEND;TZID=America/New_York:20130325T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, March 25 at 7:00 PM\n\nMicrocontroller Monday
+  is an informal weekly gathering at HacDC where electronics and microcon
+ troller enthusiasts of all experience levels meet to adv...\n\nDetails: 
+ http://www.meetup.com/hac-dc/events/61148302/
+CLASS:PUBLIC
+CREATED:20120418T212220Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148302/
+LAST-MODIFIED:20120418T212220Z
+UID:event_rhfxnyrfbhc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130327T193000
+DTEND;TZID=America/New_York:20130327T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, March 27 at 7:30 PM\n\nmake stuff\, get yo
+ ur license\, QSO\, test\, tinker\, learn\, or...\n\nDetails: http://www.
+ meetup.com/hac-dc/events/61148392/
+CLASS:PUBLIC
+CREATED:20120418T212246Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/61148392/
+LAST-MODIFIED:20120523T195859Z
+UID:event_qvrdxcyrfbkc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130328T190000
+DTEND;TZID=America/New_York:20130328T220000
+STATUS:CONFIRMED
+SUMMARY:GrindDC Meatup: Thursday Bio-hacking
+DESCRIPTION:HacDC\nThursday\, March 28 at 7:00 PM\n\nAn informal meeting 
+ of people interested in bio-hacking\, diy-bio\,\n\n implantable technolo
+ gies or other form of 'meat hacking'.\n\nDetails: http://www.meetup.com/
+ hac-dc/events/dtfkgfyrfblc/
+CLASS:PUBLIC
+CREATED:20130123T193630Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/dtfkgfyrfblc/
+LAST-MODIFIED:20130123T193630Z
+UID:event_dtfkgfyrfblc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130328T193000
+DTEND;TZID=America/New_York:20130328T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, March 28 at 7:30 PM\n\nA little incubation 
+ time for your software projects that don't get enough love. Come to shar
+ e your fun new projects with us\, ask questions of other so...\n\nDetail
+ s: http://www.meetup.com/hac-dc/events/61148412/
+CLASS:PUBLIC
+CREATED:20120418T212251Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148412/
+LAST-MODIFIED:20120418T212251Z
+UID:event_qfxpbcyrfblc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130329T200000
+DTEND;TZID=America/New_York:20130330T210000
+STATUS:CONFIRMED
+SUMMARY:Byzantium Sprint
+DESCRIPTION:HacDC\nFriday\, March 29 at 8:00 PM\n\nFriday 8-10ish Saturda
+ y 12ish-9ish or whenever we keelover  \n\nDetails: http://www.meetup.com
+ /hac-dc/events/61148462/
+CLASS:PUBLIC
+CREATED:20120418T212302Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148462/
+LAST-MODIFIED:20130104T203254Z
+UID:event_cwrxqyrfbmc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130401T190000
+DTEND;TZID=America/New_York:20130401T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, April 1 at 7:00 PM\n\nMicrocontroller Monday 
+ is an informal weekly gathering at HacDC where electronics and microcont
+ roller enthusiasts of all experience levels meet to adv...\n\nDetails: h
+ ttp://www.meetup.com/hac-dc/events/61148472/
+CLASS:PUBLIC
+CREATED:20120418T212309Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148472/
+LAST-MODIFIED:20120418T212309Z
+UID:event_rhfxnyrgbcb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130404T190000
+DTEND;TZID=America/New_York:20130404T220000
+STATUS:CONFIRMED
+SUMMARY:GrindDC Meatup: Thursday Bio-hacking
+DESCRIPTION:HacDC\nThursday\, April 4 at 7:00 PM\n\nAn informal meeting o
+ f people interested in bio-hacking\, diy-bio\,\n\n implantable technolog
+ ies or other form of 'meat hacking'.\n\nDetails: http://www.meetup.com/h
+ ac-dc/events/dtfkgfyrgbgb/
+CLASS:PUBLIC
+CREATED:20130123T193630Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/dtfkgfyrgbgb/
+LAST-MODIFIED:20130123T193630Z
+UID:event_dtfkgfyrgbgb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130404T193000
+DTEND;TZID=America/New_York:20130404T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, April 4 at 7:30 PM\n\nA little incubation t
+ ime for your software projects that don't get enough love. Come to share
+  your fun new projects with us\, ask questions of other so...\n\nDetails
+ : http://www.meetup.com/hac-dc/events/61148982/
+CLASS:PUBLIC
+CREATED:20120418T212711Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148982/
+LAST-MODIFIED:20120418T212711Z
+UID:event_qfxpbcyrgbgb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130407T150000
+DTEND;TZID=America/New_York:20130407T180000
+STATUS:CONFIRMED
+SUMMARY:Sunday Crafternoon!
+DESCRIPTION:HacDC\nSunday\, April 7 at 3:00 PM\n\nDo you knit? Crochet? E
+ mbroider? Bead? Make things out of metal? Twist pipe cleaners together? 
+ HacDC want's to open it's doors to crafters. If you hav...\n\nDetails: h
+ ttp://www.meetup.com/hac-dc/events/61148722/
+CLASS:PUBLIC
+CREATED:20120418T212536Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148722/
+LAST-MODIFIED:20120418T212536Z
+UID:event_qsqbqcyrgbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130408T190000
+DTEND;TZID=America/New_York:20130408T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, April 8 at 7:00 PM\n\nMicrocontroller Monday 
+ is an informal weekly gathering at HacDC where electronics and microcont
+ roller enthusiasts of all experience levels meet to adv...\n\nDetails: h
+ ttp://www.meetup.com/hac-dc/events/61148742/
+CLASS:PUBLIC
+CREATED:20120418T212540Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148742/
+LAST-MODIFIED:20120418T212540Z
+UID:event_rhfxnyrgblb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130409T193000
+DTEND;TZID=America/New_York:20130409T223000
+STATUS:CONFIRMED
+SUMMARY:Monthly Members Meeting
+DESCRIPTION:HacDC\nTuesday\, April 9 at 7:30 PM\n\nDetails: http://www.me
+ etup.com/hac-dc/events/zzzmqyrgbmb/
+CLASS:PUBLIC
+CREATED:20110221T073120Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/zzzmqyrgbmb/
+LAST-MODIFIED:20110221T073120Z
+UID:event_zzzmqyrgbmb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130410T193000
+DTEND;TZID=America/New_York:20130410T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, April 10 at 7:30 PM\n\n make stuff\, get y
+ our license\, QSO\, test\, tinker\, learn\,... \n\nDetails: http://www.m
+ eetup.com/hac-dc/events/61148822/
+CLASS:PUBLIC
+CREATED:20120418T212551Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148822/
+LAST-MODIFIED:20120418T212551Z
+UID:event_dsjdfcyrgbnb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130411T193000
+DTEND;TZID=America/New_York:20130411T223000
+STATUS:CONFIRMED
+SUMMARY:{S\,Th}oftware Thursdays
+DESCRIPTION:HacDC\nThursday\, April 11 at 7:30 PM\n\nA little incubation 
+ time for your software projects that don't get enough love. Come to shar
+ e your fun new projects with us\, ask questions of other so...\n\nDetail
+ s: http://www.meetup.com/hac-dc/events/61148842/
+CLASS:PUBLIC
+CREATED:20120418T212554Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148842/
+LAST-MODIFIED:20120418T212554Z
+UID:event_qfxpbcyrgbpb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130415T190000
+DTEND;TZID=America/New_York:20130415T220000
+STATUS:CONFIRMED
+SUMMARY:Microcontroller Mondays
+DESCRIPTION:HacDC\nMonday\, April 15 at 7:00 PM\n\nMicrocontroller Monday
+  is an informal weekly gathering at HacDC where electronics and microcon
+ troller enthusiasts of all experience levels meet to adv...\n\nDetails: 
+ http://www.meetup.com/hac-dc/events/61148852/
+CLASS:PUBLIC
+CREATED:20120418T212556Z
+GEO:38.93;-77.02
+LOCATION:HacDC (1525 Newton St NW\, Washington\, DC 20010)
+URL:http://www.meetup.com/hac-dc/events/61148852/
+LAST-MODIFIED:20120418T212556Z
+UID:event_rhfxnyrgbtb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130424T193000
+DTEND;TZID=America/New_York:20130424T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, April 24 at 7:30 PM\n\nmake stuff\, get yo
+ ur license\, QSO\, test\, tinker\, learn\, or...\n\nDetails: http://www.
+ meetup.com/hac-dc/events/qvrdxcyrgbgc/
+CLASS:PUBLIC
+CREATED:20120523T195858Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/qvrdxcyrgbgc/
+LAST-MODIFIED:20120523T195858Z
+UID:event_qvrdxcyrgbgc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130426T200000
+DTEND;TZID=America/New_York:20130427T210000
+STATUS:CONFIRMED
+SUMMARY:Byzantium Sprint
+DESCRIPTION:HacDC\nFriday\, April 26 at 8:00 PM\n\nFriday 8-10ish\nSaturd
+ ay 12ish-9ish or whenever we keelover\n \n\nDetails: http://www.meetup.c
+ om/hac-dc/events/cwrxqyrgbjc/
+CLASS:PUBLIC
+CREATED:20110427T231601Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/cwrxqyrgbjc/
+LAST-MODIFIED:20130104T203254Z
+UID:event_cwrxqyrgbjc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130505T150000
+DTEND;TZID=America/New_York:20130505T180000
+STATUS:CONFIRMED
+SUMMARY:Sunday Crafternoon!
+DESCRIPTION:HacDC\nSunday\, May 5 at 3:00 PM\n\nDo you knit? Crochet? Emb
+ roider? Bead? Make things out of metal? Twist pipe cleaners together? Ha
+ cDC want's to open it's doors to crafters. If you hav...\n\nDetails: htt
+ p://www.meetup.com/hac-dc/events/qsqbqcyrhbhb/
+CLASS:PUBLIC
+CREATED:20120301T163057Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/qsqbqcyrhbhb/
+LAST-MODIFIED:20120303T003508Z
+UID:event_qsqbqcyrhbhb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130508T193000
+DTEND;TZID=America/New_York:20130508T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, May 8 at 7:30 PM\n\n make stuff\, get your
+  license\, QSO\, test\, tinker\, learn\,... \n\nDetails: http://www.meet
+ up.com/hac-dc/events/dsjdfcyrhblb/
+CLASS:PUBLIC
+CREATED:20111014T190557Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/dsjdfcyrhblb/
+LAST-MODIFIED:20111014T190557Z
+UID:event_dsjdfcyrhblb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130514T193000
+DTEND;TZID=America/New_York:20130514T223000
+STATUS:CONFIRMED
+SUMMARY:Monthly Members Meeting
+DESCRIPTION:HacDC\nTuesday\, May 14 at 7:30 PM\n\nDetails: http://www.mee
+ tup.com/hac-dc/events/zzzmqyrhbsb/
+CLASS:PUBLIC
+CREATED:20110221T073120Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/zzzmqyrhbsb/
+LAST-MODIFIED:20110221T073120Z
+UID:event_zzzmqyrhbsb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130522T193000
+DTEND;TZID=America/New_York:20130522T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, May 22 at 7:30 PM\n\nmake stuff\, get your
+  license\, QSO\, test\, tinker\, learn\, or...\n\nDetails: http://www.me
+ etup.com/hac-dc/events/qvrdxcyrhbdc/
+CLASS:PUBLIC
+CREATED:20120523T195858Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/qvrdxcyrhbdc/
+LAST-MODIFIED:20120523T195858Z
+UID:event_qvrdxcyrhbdc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130531T200000
+DTEND;TZID=America/New_York:20130601T210000
+STATUS:CONFIRMED
+SUMMARY:Byzantium Sprint
+DESCRIPTION:HacDC\nFriday\, May 31 at 8:00 PM\n\nFriday 8-10ish\nSaturday
+  12ish-9ish or whenever we keelover\n \n\nDetails: http://www.meetup.com
+ /hac-dc/events/cwrxqyrhbpc/
+CLASS:PUBLIC
+CREATED:20110427T231601Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/cwrxqyrhbpc/
+LAST-MODIFIED:20130104T203254Z
+UID:event_cwrxqyrhbpc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130602T150000
+DTEND;TZID=America/New_York:20130602T180000
+STATUS:CONFIRMED
+SUMMARY:Sunday Crafternoon!
+DESCRIPTION:HacDC\nSunday\, June 2 at 3:00 PM\n\nDo you knit? Crochet? Em
+ broider? Bead? Make things out of metal? Twist pipe cleaners together? H
+ acDC want's to open it's doors to crafters. If you hav...\n\nDetails: ht
+ tp://www.meetup.com/hac-dc/events/qsqbqcyrjbdb/
+CLASS:PUBLIC
+CREATED:20120301T163057Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/qsqbqcyrjbdb/
+LAST-MODIFIED:20120303T003508Z
+UID:event_qsqbqcyrjbdb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130611T193000
+DTEND;TZID=America/New_York:20130611T223000
+STATUS:CONFIRMED
+SUMMARY:Monthly Members Meeting
+DESCRIPTION:HacDC\nTuesday\, June 11 at 7:30 PM\n\nDetails: http://www.me
+ etup.com/hac-dc/events/zzzmqyrjbpb/
+CLASS:PUBLIC
+CREATED:20110221T073120Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/zzzmqyrjbpb/
+LAST-MODIFIED:20110221T073120Z
+UID:event_zzzmqyrjbpb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130612T193000
+DTEND;TZID=America/New_York:20130612T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, June 12 at 7:30 PM\n\n make stuff\, get yo
+ ur license\, QSO\, test\, tinker\, learn\,... \n\nDetails: http://www.me
+ etup.com/hac-dc/events/dsjdfcyrjbqb/
+CLASS:PUBLIC
+CREATED:20111014T190557Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/dsjdfcyrjbqb/
+LAST-MODIFIED:20111014T190557Z
+UID:event_dsjdfcyrjbqb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130626T193000
+DTEND;TZID=America/New_York:20130626T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, June 26 at 7:30 PM\n\nmake stuff\, get you
+ r license\, QSO\, test\, tinker\, learn\, or...\n\nDetails: http://www.m
+ eetup.com/hac-dc/events/qvrdxcyrjbjc/
+CLASS:PUBLIC
+CREATED:20120523T195858Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/qvrdxcyrjbjc/
+LAST-MODIFIED:20120523T195858Z
+UID:event_qvrdxcyrjbjc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130628T200000
+DTEND;TZID=America/New_York:20130629T210000
+STATUS:CONFIRMED
+SUMMARY:Byzantium Sprint
+DESCRIPTION:HacDC\nFriday\, June 28 at 8:00 PM\n\nFriday 8-10ish\nSaturda
+ y 12ish-9ish or whenever we keelover\n \n\nDetails: http://www.meetup.co
+ m/hac-dc/events/cwrxqyrjblc/
+CLASS:PUBLIC
+CREATED:20110427T231601Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/cwrxqyrjblc/
+LAST-MODIFIED:20130104T203254Z
+UID:event_cwrxqyrjblc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130707T150000
+DTEND;TZID=America/New_York:20130707T180000
+STATUS:CONFIRMED
+SUMMARY:Sunday Crafternoon!
+DESCRIPTION:HacDC\nSunday\, July 7 at 3:00 PM\n\nDo you knit? Crochet? Em
+ broider? Bead? Make things out of metal? Twist pipe cleaners together? H
+ acDC want's to open it's doors to crafters. If you hav...\n\nDetails: ht
+ tp://www.meetup.com/hac-dc/events/qsqbqcyrkbkb/
+CLASS:PUBLIC
+CREATED:20120301T163057Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/qsqbqcyrkbkb/
+LAST-MODIFIED:20120303T003508Z
+UID:event_qsqbqcyrkbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130709T193000
+DTEND;TZID=America/New_York:20130709T223000
+STATUS:CONFIRMED
+SUMMARY:Monthly Members Meeting
+DESCRIPTION:HacDC\nTuesday\, July 9 at 7:30 PM\n\nDetails: http://www.mee
+ tup.com/hac-dc/events/zzzmqyrkbmb/
+CLASS:PUBLIC
+CREATED:20110221T073120Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/zzzmqyrkbmb/
+LAST-MODIFIED:20110221T073120Z
+UID:event_zzzmqyrkbmb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130710T193000
+DTEND;TZID=America/New_York:20130710T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, July 10 at 7:30 PM\n\n make stuff\, get yo
+ ur license\, QSO\, test\, tinker\, learn\,... \n\nDetails: http://www.me
+ etup.com/hac-dc/events/dsjdfcyrkbnb/
+CLASS:PUBLIC
+CREATED:20111014T190557Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/dsjdfcyrkbnb/
+LAST-MODIFIED:20111014T190557Z
+UID:event_dsjdfcyrkbnb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130724T193000
+DTEND;TZID=America/New_York:20130724T223000
+STATUS:CONFIRMED
+SUMMARY:Amateur Radio
+DESCRIPTION:HacDC\nWednesday\, July 24 at 7:30 PM\n\nmake stuff\, get you
+ r license\, QSO\, test\, tinker\, learn\, or...\n\nDetails: http://www.m
+ eetup.com/hac-dc/events/qvrdxcyrkbgc/
+CLASS:PUBLIC
+CREATED:20120523T195858Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/qvrdxcyrkbgc/
+LAST-MODIFIED:20120523T195858Z
+UID:event_qvrdxcyrkbgc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20130130T234658Z
+DTSTART;TZID=America/New_York:20130726T200000
+DTEND;TZID=America/New_York:20130727T210000
+STATUS:CONFIRMED
+SUMMARY:Byzantium Sprint
+DESCRIPTION:HacDC\nFriday\, July 26 at 8:00 PM\n\nFriday 8-10ish\nSaturda
+ y 12ish-9ish or whenever we keelover\n \n\nDetails: http://www.meetup.co
+ m/hac-dc/events/cwrxqyrkbjc/
+CLASS:PUBLIC
+CREATED:20110427T231601Z
+GEO:38.93;-77.02
+URL:http://www.meetup.com/hac-dc/events/cwrxqyrkbjc/
+LAST-MODIFIED:20130104T203254Z
+UID:event_cwrxqyrkbjc@meetup.com
+END:VEVENT
+END:VCALENDAR
