@@ -1,7 +1,8 @@
-compoundcalendar
+django-communitycalendar
 ========================
 
-Django app that allows for the management of a calendar, which can include events submitted by users or fetched from external ical sources
+Allow users to create group event calendars (or import events from elsewhere, via iCal)
+and expose one big calendar of all the events!
 
 
 Running the Tests
