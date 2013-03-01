@@ -13,15 +13,15 @@ def read_file(filename):
 
 
 setup(
-    name='django-compoundcalendar',
-    version=__import__('compoundcalendar').__version__,
+    name='django-communitycalendar',
+    version=__import__('communitycalendar').__version__,
     author='Ross Karchner',
     author_email='ross@karchner.com',
     packages=find_packages(),
     include_package_data=True,
-    url='http://github.com/rosskarchner/compoundcalendar',
+    url='http://github.com/rosskarchner/communitycalendar',
     license='Same license as Python',
-    description=u' '.join(__import__('compoundcalendar').__doc__.splitlines()).strip(),
+    description=u' '.join(__import__('communitycalendar').__doc__.splitlines()).strip(),
     classifiers=[
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Intended Audience :: Developers',

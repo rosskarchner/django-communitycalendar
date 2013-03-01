@@ -29,4 +29,4 @@ class SiteMixin(object):
 
 
 class FrontPage(SiteMixin, TemplateView):
-    template_name = 'compoundcalendar/index.html'
+    template_name = 'communitycalendar/index.html'
