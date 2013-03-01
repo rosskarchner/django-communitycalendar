@@ -1,32 +1,81 @@
-from django.views.generic import TemplateView
-from django.contrib.sites.models import get_current_site
-from django.core.exceptions import ObjectDoesNotExist
-from django.conf import settings as django_settings
+from django.views.generic import (CreateView,
+                                  ListView,
+                                  UpdateView,
+                                  DetailView,
+                                  DeleteView)
 
+from braces.views import LoginRequiredMixin, StaffuserRequiredMixin
 
-class SiteMixin(object):
-    @property
-    def site(self):
-        return get_current_site(self.request)
+from .models import Group
 
-    @property
-    def site_settings(self):
-        try:
-            return self.site.sitesettings_set.get()
-        except ObjectDoesNotExist:
-            timezone = django_settings.TIME_ZONE
-            settings = self.site.sitesettings_set.create(
-                default_timezone=timezone)
-            settings.save()
-            return settings
-
-    def get_context_data(self, **kwargs):
-        context = super(SiteMixin,
-                        self).get_context_data(**kwargs)
-        context["site"] = self.site
-        context["site_settings"] = self.site_settings
-        return context
-
-
-class FrontPage(SiteMixin, TemplateView):
+class FrontPage(ListView):
     template_name = 'communitycalendar/index.html'
+
+
+class SiteEdit(StaffuserRequiredMixin, UpdateView):
+    template_name = 'communitycalendar/edit_site.html'
+
+
+class GroupCreate(LoginRequiredMixin, CreateView):
+    template_name = 'communitycalendar/create_group.html'
+
+
+class GroupDetail(DetailView):
+    template_name = 'communitycalendar/group.html'
+
+
+class GroupUpdate(LoginRequiredMixin, UpdateView):
+    template_name = 'communitycalendar/update_group.html'
+
+
+class GroupList(ListView):
+    model = Group
+    #template_name = 'communitycalendar/list_groups.html'
+
+
+class GroupDelete(LoginRequiredMixin, DeleteView):
+    template_name = 'comminitycalendar/delete_group.html'
+
+
+class EventCreate(LoginRequiredMixin, CreateView):
+    template_name = 'communitycalendar/create_event.html'
+
+
+class EventDetail(DetailView):
+    template_name = 'communitycalendar/event_detail.html'
+
+
+class EventEdit(LoginRequiredMixin, UpdateView):
+    template_name = 'communitycalendar/update_event.html'
+
+
+class EventDelete(LoginRequiredMixin, DeleteView):
+    template_name = 'communitycalendar/delete_event.html'
+
+
+class ApplyToOrganize(CreateView):
+    template_name = 'communitycalendar/apply_to_organize.html'
+
+
+class InviteToOrganize(LoginRequiredMixin, CreateView):
+    template_name = 'communitycalendar/invite_to_organize.html'
+
+
+class ApplyToMod(CreateView):
+    template_name = 'communitycalendar/apply_to_mod.html'
+
+
+class InviteToMod(LoginRequiredMixin, CreateView):
+    template_name = 'communitycalendar/invite_to_organize.html'
+
+
+class ModerationQueue(ListView):
+    template_name = 'communitycalendar/moderate.html'
+
+
+class AcceptInvitation(UpdateView):
+    template_name = 'communitycalendar/accept_invitation.html'
+
+
+class ReportAProblem(CreateView):
+    template_name = 'communitycalendar/report_trouble.html'

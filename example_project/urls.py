@@ -5,7 +5,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^compoundcalendar/',
-        include('compoundcalendar.urls')),
+    url(r'^communitycalendar/',
+        include('communitycalendar.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )
