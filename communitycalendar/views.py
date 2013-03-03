@@ -7,6 +7,8 @@ from django.views.generic import (CreateView,
 from braces.views import LoginRequiredMixin, StaffuserRequiredMixin
 
 from .models import Group
+from .forms import GroupCreateForm
+
 
 class FrontPage(ListView):
     template_name = 'communitycalendar/index.html'
@@ -17,11 +19,13 @@ class SiteEdit(StaffuserRequiredMixin, UpdateView):
 
 
 class GroupCreate(LoginRequiredMixin, CreateView):
-    template_name = 'communitycalendar/create_group.html'
+    form_class = GroupCreateForm
+    template_name = 'communitycalendar/group_create.html'
 
 
 class GroupDetail(DetailView):
     template_name = 'communitycalendar/group.html'
+    model = Group
 
 
 class GroupUpdate(LoginRequiredMixin, UpdateView):
@@ -30,7 +34,6 @@ class GroupUpdate(LoginRequiredMixin, UpdateView):
 
 class GroupList(ListView):
     model = Group
-    #template_name = 'communitycalendar/list_groups.html'
 
 
 class GroupDelete(LoginRequiredMixin, DeleteView):

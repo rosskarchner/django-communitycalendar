@@ -1,8 +1,9 @@
 <h1>List of Groups</h1>
+<a href="{% url "group-create" %}">Add a new group</a>
 <ul>
-{% for group in groups %}
+{% for group in group_list %}
 
-<li>{{ group }}</li>
+<li><a href="{{ group.get_absolute_url }}">{{ group.name }}</a></li>
 
 {% endfor %}
 </ul>

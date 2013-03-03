@@ -12,7 +12,7 @@ urlpatterns = patterns('communitycalendar.views',
 
     url(r'^groups/create/$', GroupCreate.as_view(),
         name='group-create'),
-    url(r'^groups/(.+)/$', GroupDetail.as_view(),
+    url(r'^groups/(?P<slug>[-_\w]+)/$', GroupDetail.as_view(),
         name='group-detail'),
     url('^groups/(.+)/edit/$', GroupUpdate.as_view(),
         name='group-update'),
