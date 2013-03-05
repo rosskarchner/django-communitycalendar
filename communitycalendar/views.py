@@ -6,8 +6,8 @@ from django.views.generic import (CreateView,
 
 from braces.views import LoginRequiredMixin, StaffuserRequiredMixin
 
-from .models import Group
-from .forms import GroupCreateForm
+from .models import Group, Event
+from .forms import GroupCreateForm, EventCreateForm
 
 
 class FrontPage(ListView):
@@ -38,6 +38,15 @@ class GroupList(ListView):
 
 class GroupDelete(LoginRequiredMixin, DeleteView):
     template_name = 'comminitycalendar/delete_group.html'
+
+
+class EventCreateForGroup(LoginRequiredMixin, CreateView):
+    template_name = 'communitycalendar/create_event_for_group.html'
+    form_class = EventCreateForm
+
+    def get_queryset(self):
+        group = Group.objects.filter(**self.kwargs).get()
+        return group.events
 
 
 class EventCreate(LoginRequiredMixin, CreateView):

@@ -1,3 +1,5 @@
 <h1>{{ group.name}}</h1>
 
 <p> {{ group.description }} </p>
+
+<a href="{% url "event-add-for-group" group.slug %}">add an event</a>
