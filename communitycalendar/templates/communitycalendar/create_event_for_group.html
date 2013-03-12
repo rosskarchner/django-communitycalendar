@@ -1,2 +1,21 @@
 <h1>Add an Event!</h1>
-{{ form }}
+<form method="POST">
+<table>
+{{ event_form }}
+</table>
+{{ event_instance_formset.management_form }}
+
+
+{% for error in event_instance_formset.non_form_errors %}
+    {% if forloop.first %}<ul>{% endif %}
+    {{  error }}
+    {% if forloop.last %}</ul>{% endif %}
+{% endfor %}
+<table>
+{% for event_instance_form in event_instance_formset %}
+    {{event_instance_form}}
+{% endfor %}
+</table>
+<input type="submit" value="Add this event"/>
+{% csrf_token %}
+</form>

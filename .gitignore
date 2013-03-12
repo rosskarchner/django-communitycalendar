@@ -10,5 +10,6 @@
 *.egg-info/*
 docs/_build/*
 dist/*
-.sqlite3
+*.sqlite3
 *.swp
+.env

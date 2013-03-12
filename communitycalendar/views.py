@@ -1,13 +1,16 @@
-from django.views.generic import (CreateView,
+from django.views.generic import (TemplateView,
+                                  CreateView,
                                   ListView,
                                   UpdateView,
                                   DetailView,
                                   DeleteView)
+from django.http import HttpResponse
 
 from braces.views import LoginRequiredMixin, StaffuserRequiredMixin
 
 from .models import Group, Event
-from .forms import GroupCreateForm, EventCreateForm
+from .forms import GroupCreateForm
+from .mixins import GroupMixin, EventSubmissionMixin
 
 
 class FrontPage(ListView):
@@ -23,9 +26,8 @@ class GroupCreate(LoginRequiredMixin, CreateView):
     template_name = 'communitycalendar/group_create.html'
 
 
-class GroupDetail(DetailView):
-    template_name = 'communitycalendar/group.html'
-    model = Group
+class GroupDetail(GroupMixin, TemplateView):
+    template_name = 'communitycalendar/group_detail.html'
 
 
 class GroupUpdate(LoginRequiredMixin, UpdateView):
@@ -40,13 +42,17 @@ class GroupDelete(LoginRequiredMixin, DeleteView):
     template_name = 'comminitycalendar/delete_group.html'
 
 
-class EventCreateForGroup(LoginRequiredMixin, CreateView):
+class EventCreateForGroup(EventSubmissionMixin,
+                          GroupMixin, LoginRequiredMixin, TemplateView):
     template_name = 'communitycalendar/create_event_for_group.html'
-    form_class = EventCreateForm
 
-    def get_queryset(self):
-        group = Group.objects.filter(**self.kwargs).get()
-        return group.events
+    def post(self, request, **kwargs):
+        forms = self.forms()
+        event_details_form = forms['event_form']
+        event_instance_formset = forms['event_instance_formset']
+        if event_details_form.is_valid() and event_instance_formset.is_valid():
+          pass
+        return self.get(request)
 
 
 class EventCreate(LoginRequiredMixin, CreateView):

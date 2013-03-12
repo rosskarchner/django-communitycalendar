@@ -7,7 +7,6 @@ from django.core.urlresolvers import reverse
 
 
 class SiteSettings(models.Model):
-    site = models.ForeignKey(Site)
     default_timezone = models.CharField(max_length=255)
     guidelines = models.TextField(blank=True)
 
@@ -35,20 +34,19 @@ class Group(models.Model):
         return self.name
 
     def get_absolute_url(self):
-        return reverse('group-detail', kwargs={'slug': self.slug})
+        return reverse('group-detail', kwargs={'group_slug': self.slug})
 
 
 class Event(models.Model):
-    site = models.ForeignKey(Site)
     slug = models.SlugField(max_length=100, primary_key=True)
     summary = models.TextField()
     description = models.TextField(blank=True)
     status = models.CharField(max_length=255)
+    link = models.URLField(blank=True)
     rrule = models.TextField(blank=True)
     source_type = models.ForeignKey(ContentType, null=True)
     source_id = models.CharField(max_length=500, null=True)
     source = generic.GenericForeignKey('source_type', 'source_id')
-    all_day = models.BooleanField(default=False)
     recurrence_of = models.ForeignKey('Event', null=True)
     recurrence_for_date = models.DateField(null=True)
 
@@ -57,5 +55,6 @@ class EventInstance(models.Model):
     event = models.ForeignKey(Event)
     dtstart = models.DateTimeField()
     end_time = models.TimeField(null=True, blank=True)
+    all_day = models.BooleanField(default=False)
     location = models.TextField(blank=True)
     geo = models.CharField(max_length=255, blank=True)
